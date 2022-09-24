@@ -1,0 +1,141 @@
+body {
+    background-color:  hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+}
+
+    /* Card */
+
+#card {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 10px 10px;
+    width: 600px;
+    margin: 200px auto;
+}
+
+    /* Image */
+
+.column-img {
+    padding: 0;
+}
+
+#product-img {
+    border-radius: 10px 0 0 10px;
+    width: 300px;
+}
+
+    /* Description */
+
+#column-description {
+    padding: 1.5rem 2rem;
+}
+
+#intro {
+    letter-spacing: 4px;
+}
+
+.description {
+    line-height: 1.7;
+}
+
+    /* Price */
+
+#section-price {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+#act-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    display: inline-block;
+}
+
+#prev-price {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    left: 140px;
+    bottom: 15px;
+}
+
+#btn {
+    font-size: 14px;
+    padding: 0.7rem 0;
+}
+
+/* Attribution */
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center;
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.attribution a { 
+    font-family: 'Fraunces', serif;
+    font-size: 17px;
+    text-decoration: none;
+    color: hsl(228, 45%, 44%); 
+    display: inline-block;
+}
+
+@media (min-width: 770px) {
+    #product-img-mobile {
+        width: 300px;
+        display: none;
+    }
+    
+}
+
+@media (max-width: 770px) {
+    #card {
+        border-radius: 10px 10px 10px 10px;
+        width: 370px;
+    }
+    
+    #product-img {
+        display: none;
+        border-radius: 10px 10px 0 0;
+        width: 370px;
+    }
+
+    #product-img-mobile {
+        border-radius: 10px 10px 0 0;
+        width: 370px;
+    }
+
+    #column-description {
+        padding: 1.5rem 1.8rem;
+    }
+
+    /* #act-price {
+    }
+
+    #prev-price {
+        right: 55px;
+    } */
+
+}
+
+/* @media (max-width: 770px) {
+    #column-description {
+        padding: 1.5rem 2rem;
+    }
+} */
