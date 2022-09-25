@@ -6,23 +6,23 @@ body {
 h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 1;
     margin-bottom: 1.5rem;
 }
 
 p {
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
     /* Card */
 
 #card {
     background-color: hsl(0, 0%, 100%);
-    border-radius: 10px 10px 10px 10px;
-    width: 600px;
-    margin: 200px auto;
+    border-radius: 0.625rem;
+    width: 37.5rem;
+    margin: 12.5rem auto;
 }
 
     /* Image */
@@ -32,8 +32,8 @@ p {
 }
 
 #product-img {
-    border-radius: 10px 0 0 10px;
-    width: 300px;
+    border-radius: 0.625rem 0 0 0.625rem;
+    width: 18.75rem;
 }
 
     /* Description */
@@ -43,7 +43,9 @@ p {
 }
 
 #intro {
-    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+    letter-spacing: 0.25rem;
 }
 
 .description {
@@ -61,28 +63,28 @@ p {
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.875rem;
     display: inline-block;
 }
 
 #prev-price {
     color: hsl(228, 12%, 48%);
-    font-size: 14px;
+    font-size: 0.875rem;
     display: inline-block;
     position: absolute;
-    left: 140px;
-    bottom: 15px;
+    left: 8.5rem;
+    top: 0.39rem
 }
 
 #btn {
-    font-size: 14px;
+    font-size: 0.875rem;
     padding: 0.7rem 0;
 }
 
 /* Attribution */
 
 .attribution { 
-    font-size: 14px; 
+    font-size: 0.875rem; 
     text-align: center;
     position: relative;
     padding-bottom: 5%;
@@ -90,7 +92,7 @@ p {
 
 .attribution a { 
     font-family: 'Fraunces', serif;
-    font-size: 17px;
+    font-size: 1.0625rem;
     text-decoration: none;
     color: hsl(228, 45%, 44%); 
     display: inline-block;
@@ -98,44 +100,31 @@ p {
 
 @media (min-width: 770px) {
     #product-img-mobile {
-        width: 300px;
-        display: none;
+        width: 18.75rem;
+        /* display: none; */
     }
     
 }
 
 @media (max-width: 770px) {
     #card {
-        border-radius: 10px 10px 10px 10px;
-        width: 370px;
+        border-radius: 0.625rem;
+        width: 23.125rem;
     }
     
     #product-img {
-        display: none;
-        border-radius: 10px 10px 0 0;
-        width: 370px;
+        /* display: none; */
+        border-radius: 0.625rem 0.625rem 0 0;
+        width: 23.125rem;
     }
 
     #product-img-mobile {
-        border-radius: 10px 10px 0 0;
-        width: 370px;
+        border-radius: 0.625rem 0.625rem 0 0;
+        width: 23.125rem;
     }
 
     #column-description {
         padding: 1.5rem 1.8rem;
     }
 
-    /* #act-price {
-    }
-
-    #prev-price {
-        right: 55px;
-    } */
-
 }
-
-/* @media (max-width: 770px) {
-    #column-description {
-        padding: 1.5rem 2rem;
-    }
-} */
